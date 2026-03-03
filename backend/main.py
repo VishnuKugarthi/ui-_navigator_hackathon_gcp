@@ -103,7 +103,7 @@ class GcpGeminiAgent(AgentBackend):
             try:
                 dom_context = await self.page.evaluate("""() => {
                     let elements = [];
-                    // Look for interactive elements + data-attributes common in Amazon filters
+                    // Look for interactive elements + data-attributes common in SaaS filters
                     document.querySelectorAll('a, button, input, select, option, [role="button"], li.s-navigation-item').forEach(el => {
                         let rect = el.getBoundingClientRect();
                         if (rect.width > 0 && rect.height > 0 && rect.bottom >= 0 && rect.top <= window.innerHeight + 500) {

@@ -1,6 +1,8 @@
 # Agentic UI Navigator
 
-**Submission for the Gemini Live Agent Challenge & Amazon Nova Hackathon**
+Link - https://geminiliveagentchallenge.devpost.com/rules
+
+**Submission for the Gemini Live Agent Challenge**
 
 **Category:** UI Navigator (Focus: Visual UI Understanding & Interaction)
 

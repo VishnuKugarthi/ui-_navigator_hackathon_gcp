@@ -98,7 +98,7 @@ function App() {
     }
 
     setIsLoading(true);
-    // AWS Nova uses 8001, GCP Gemini uses 8002
+    // Gemini Backend uses 8002
     const apiUrl = 'http://localhost:8002';
 
     try {
